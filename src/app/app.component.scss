@@ -1,0 +1,26 @@
+.post {
+  height: calc(100vh/3);
+  padding: 1rem;
+  display: flex;
+  align-items: stretch;
+
+  .wrapper {
+    width: 100%;
+    border:1px solid #ccc;
+    padding: 1rem;
+    overflow: hidden;
+
+    .header {
+      display: flex;
+      align-items: center;
+
+      strong {
+        padding: 0 .5rem;
+      }
+    }
+
+    h3 {
+      margin: 1rem 0;
+    }
+  }
+}

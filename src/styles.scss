@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.pulse {
+  animation: pulse 1.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.25;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
